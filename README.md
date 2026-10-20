@@ -202,7 +202,7 @@ The file `reference/raw_input_manifest.json` contains source-file roles, byte si
 ## Citation and archive
 
 - GitHub: <https://github.com/HitoshiTabuchi/near-target-astigmatism-analysis> (release `v1.0.1`)
-- Zenodo: every GitHub release is archived automatically; the Zenodo record lists all versions.
+- Zenodo: release `v1.0.1` is archived in Zenodo by direct deposit of the GitHub release archive; the DOI is given in the article's Availability of data and materials statement.
 - Citation metadata: [CITATION.cff](CITATION.cff)
 
 ## Responsibility statement
