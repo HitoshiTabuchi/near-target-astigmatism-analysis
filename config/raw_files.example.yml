@@ -1,0 +1,21 @@
+# Template for the private source-file configuration.
+# Copy to config/raw_files.yml (git-ignored) and enter the real filenames
+# held in the institutionally controlled directory. Filenames are deliberately
+# not distributed publicly; hash verification is keyed on the logical role below.
+raw_data_root: /path/to/private/source/files
+files:
+  iol: <iol_and_procedure_export>.xlsx
+  refraction: <manifest_refraction_export>.xlsx
+  keratometry: <keratometry_export>.xlsx
+  axial_site_a: <axial_length_export_site_a>.xlsx
+  axial_site_b: <axial_length_export_site_b>.xlsx
+  casia1: <anterior_segment_posterior_cornea_export>.xlsx
+  casia2: <anterior_segment_with_acd_export>.xlsx
+  iol_axis_deviation: <toric_axis_deviation_export>.xlsx
+  va_site_b: <visual_acuity_export_site_b>.xlsx
+  va_site_a: <visual_acuity_export_site_a>.xlsx
+# Manual-audit record fingerprints: SHA-256 of "patient_id|eye|YYYY-MM-DD|normalised IOL model".
+# Kept private because such fingerprints can be reversed by exhaustive search.
+private_audit:
+  toric_override_sha256: []            # records adjudicated as toric in the final audit
+  axial_validity_exclusion_sha256: []  # records whose axial length was excluded as implausible

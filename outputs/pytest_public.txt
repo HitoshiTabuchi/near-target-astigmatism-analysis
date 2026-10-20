@@ -1,0 +1,4 @@
+.....s...                                                                [100%]
+=========================== short test summary info ============================
+SKIPPED [1] tests/test_no_identifiers.py:36: NEAR_TARGET_PRIVATE_TOKENS not set; private identifier check skipped
+8 passed, 1 skipped, 2 deselected in 2.31s

@@ -1,0 +1,22 @@
+{
+  "eligible_eyes": 60302,
+  "near_target_eyes": 9088,
+  "near_target_patients": 6168,
+  "manifest_refraction_observed_eyes": 3301,
+  "manifest_refraction_observed_patients": 2355,
+  "primary_eyes": 3290,
+  "primary_patients": 2348,
+  "primary_toric_eyes": 988,
+  "primary_nontoric_eyes": 2302,
+  "primary_coefficient_d": -0.2744225929999175,
+  "primary_standard_error": 0.0559689378108706,
+  "primary_ci_low": -0.3841217111092239,
+  "primary_ci_high": -0.16472347489061112,
+  "primary_p_value": 9.42953426495663e-07,
+  "rubin_within_variance": 0.0026727383715891257,
+  "rubin_between_variance": 0.00043788917221183646,
+  "target_interaction_unva": 0.06955306477723316,
+  "target_interaction_uiva": 0.03602899518154342,
+  "target_interaction_udva": -0.06813147635743169,
+  "raw_verification_equivalence_margin_d": 0.03
+}

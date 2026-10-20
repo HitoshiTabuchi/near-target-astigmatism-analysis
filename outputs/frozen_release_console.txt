@@ -1,0 +1,106 @@
+{
+  "mode": "frozen_release_replay",
+  "model": {
+    "passed": true,
+    "checks": {
+      "coefficient": true,
+      "standard_error": true,
+      "ci_low": true,
+      "ci_high": true,
+      "within_variance": true,
+      "between_variance": true,
+      "m": true
+    },
+    "pooled": {
+      "m": 20,
+      "coefficient": -0.2744225929999175,
+      "within_variance": 0.0026727383706913748,
+      "between_variance": 0.0004378891704625489,
+      "total_variance": 0.0031325219996770513,
+      "standard_error": 0.05596893781087016,
+      "ci_low": -0.384121711109223,
+      "ci_high": -0.164723474890612,
+      "p_value": 9.432482173304599e-07
+    },
+    "expected": {
+      "eligible_eyes": 60302,
+      "near_target_eyes": 9088,
+      "near_target_patients": 6168,
+      "manifest_refraction_observed_eyes": 3301,
+      "manifest_refraction_observed_patients": 2355,
+      "primary_eyes": 3290,
+      "primary_patients": 2348,
+      "primary_toric_eyes": 988,
+      "primary_nontoric_eyes": 2302,
+      "primary_coefficient_d": -0.2744225929999175,
+      "primary_standard_error": 0.0559689378108706,
+      "primary_ci_low": -0.3841217111092239,
+      "primary_ci_high": -0.16472347489061112,
+      "primary_p_value": 9.42953426495663e-07,
+      "rubin_within_variance": 0.002672738371589126,
+      "rubin_between_variance": 0.00043788917221183643,
+      "target_interaction_unva": 0.06955306477723316,
+      "target_interaction_uiva": 0.03602899518154342,
+      "target_interaction_udva": -0.06813147635743169,
+      "raw_verification_equivalence_margin_d": 0.03
+    }
+  },
+  "figures": [
+    {
+      "filename": "Figure_1_study_flow_and_availability.png",
+      "sha256_reference": "928334f8d399440d5012b8c0e4c3e0cd793f7e00691d74dde64aef9c434c71de",
+      "sha256_replayed": "928334f8d399440d5012b8c0e4c3e0cd793f7e00691d74dde64aef9c434c71de",
+      "identical": true
+    },
+    {
+      "filename": "Figure_2_unified_diagnostics_and_sensitivity.png",
+      "sha256_reference": "845d8737a84f6ba2df04e0d69795e09f7ca6aa954e0e390bb6c1c66a4df53948",
+      "sha256_replayed": "845d8737a84f6ba2df04e0d69795e09f7ca6aa954e0e390bb6c1c66a4df53948",
+      "identical": true
+    },
+    {
+      "filename": "Figure_3_target_interaction_and_monovision.png",
+      "sha256_reference": "065ac3ddaeaff8a84ec48334de9918928d5e9909bff1bee1fc2ae4bcfc391ead",
+      "sha256_replayed": "065ac3ddaeaff8a84ec48334de9918928d5e9909bff1bee1fc2ae4bcfc391ead",
+      "identical": true
+    },
+    {
+      "filename": "Supplementary_Figure_S1_toric_by_stratum.png",
+      "sha256_reference": "13bfeca113077681a6dff69b6bed11b0f46eda0d8619ac7c97bd3631370d2e51",
+      "sha256_replayed": "13bfeca113077681a6dff69b6bed11b0f46eda0d8619ac7c97bd3631370d2e51",
+      "identical": true
+    },
+    {
+      "filename": "Supplementary_Figure_S2_near_target_VA.png",
+      "sha256_reference": "6e7bddad6946893f4ceffbbe3b72dabe0d094adffedcba780aaf6889cecd7464",
+      "sha256_replayed": "6e7bddad6946893f4ceffbbe3b72dabe0d094adffedcba780aaf6889cecd7464",
+      "identical": true
+    },
+    {
+      "filename": "Supplementary_Figure_S3_continuous_achieved_SE.png",
+      "sha256_reference": "fc4f6b6276a3937c34258a3cf4679cf26563fdac946553751ebd8e74a5dc2cb0",
+      "sha256_replayed": "fc4f6b6276a3937c34258a3cf4679cf26563fdac946553751ebd8e74a5dc2cb0",
+      "identical": true
+    },
+    {
+      "filename": "Supplementary_Figure_S4_vector_rotation.png",
+      "sha256_reference": "c7d853dd66910b1d37b1fbadf36d1d4e6ecbaa744798eea85c20ea682fa9290c",
+      "sha256_replayed": "c7d853dd66910b1d37b1fbadf36d1d4e6ecbaa744798eea85c20ea682fa9290c",
+      "identical": true
+    },
+    {
+      "filename": "Supplementary_Figure_S5_exploratory_alpins.png",
+      "sha256_reference": "c1e6249c06377d6a68fb5d8d96ecd1ad7259e4525e2c6f43a7b1524539cdaf13",
+      "sha256_replayed": "c1e6249c06377d6a68fb5d8d96ecd1ad7259e4525e2c6f43a7b1524539cdaf13",
+      "identical": true
+    }
+  ],
+  "all_figures_identical": true,
+  "passed": true,
+  "regenerated_aggregate_figures": [
+    "outputs/frozen_release/regenerated_figures/regenerated_MI_component_estimates.png",
+    "outputs/frozen_release/regenerated_figures/regenerated_overlap_weight_ESS.png",
+    "outputs/frozen_release/regenerated_figures/regenerated_target_interactions.png",
+    "outputs/frozen_release/regenerated_figures/regenerated_sensitivity_forest.png"
+  ]
+}

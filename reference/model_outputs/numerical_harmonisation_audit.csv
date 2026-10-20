@@ -1,0 +1,6 @@
+item,previous_manuscript,interim_reimplementation,final_frozen_pipeline,resolution
+Primary toric estimate,-0.317 D,-0.299 D,-0.274 D (95% CI -0.384 to -0.165),All manuscript analyses rerun; previous and interim values superseded
+Primary analytic patients,2350,2349,2348,One patient-count algorithm used across all outputs
+Manifest-observed patients,2357,not consistently reported,2355,Unified eye-level validity and unique-ID count
+Preoperative corneal cylinder availability,3195,3196 in Table S4,3195,Same 0-7 D validity rule applied to S3 and S4
+Axial length availability,3215,3170 in Table S4,3203,Same 18-35 mm validity rule applied to all descriptive tables

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Please cite this software and the associated BMC Ophthalmology article."
+title: "Analysis code for residual astigmatism and toric intraocular lens correction in near-targeted cataract surgery"
+version: 1.0.1
+date-released: 2026-10-19
+type: software
+authors:
+  - family-names: Tabuchi
+    given-names: Hitoshi
+  - family-names: Shojo
+    given-names: Tomohiro
+  - family-names: Yamauchi
+    given-names: Tomofusa
+  - family-names: Gomi
+    given-names: Fumi
+repository-code: "https://github.com/HitoshiTabuchi/near-target-astigmatism-analysis"
+abstract: >-
+  Frozen release replay and independent reconstruction of the primary estimate
+  for a single-centre retrospective cohort study of residual astigmatism and
+  toric IOL correction in near-targeted cataract surgery. The principal
+  estimates of the stratified, secondary and sensitivity analyses are archived
+  as non-patient-level outputs and are not rerun by this code.
+license: MIT
+keywords:
+  - cataract
+  - toric intraocular lens
+  - astigmatism
+  - overlap weighting
+  - multiple imputation

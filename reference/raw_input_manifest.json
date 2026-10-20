@@ -1,0 +1,42 @@
+{
+  "iol": {
+    "sha256": "03aaf89103223c51972faeba5707e7f9abc06c3ba9154ee1db8a6bf73cb02f41",
+    "bytes": 3867988
+  },
+  "refraction": {
+    "sha256": "bf74d86c8cc687f596aa750681c15b17bf265b2240c38adb1daf784ea0b63ff5",
+    "bytes": 2817988
+  },
+  "keratometry": {
+    "sha256": "bac64eee2eb8f2d857ef90e5a4378da53ece3642cf77e9c94b241dccd91ddbab",
+    "bytes": 6337436
+  },
+  "axial_site_a": {
+    "sha256": "8cc1769daba8f91a11983d2d49a689455364b6827384bc5d2fca1ffa9a6cf1dd",
+    "bytes": 7986
+  },
+  "axial_site_b": {
+    "sha256": "58378d17b4995db7b62dc8ce20e3e2c573bce80dbbf65760bddff56eca581d1a",
+    "bytes": 1421912
+  },
+  "casia1": {
+    "sha256": "9e63886849651f341dd3c575181fe016f7e2580c99fe269ff1eb6ca9aec73468",
+    "bytes": 12021414
+  },
+  "casia2": {
+    "sha256": "bb56336348f219e56e48a6e2cfa6be22cffee62501dc9a46f0d24720a427c862",
+    "bytes": 35637191
+  },
+  "iol_axis_deviation": {
+    "sha256": "093be5d12acb77254e07e660ed6137ac2cc322b66290855366bb06fbc820b31c",
+    "bytes": 614628
+  },
+  "va_site_b": {
+    "sha256": "7064d0e18100d44366d435061d2129570d8a0cca05b371b3201c723e83048be3",
+    "bytes": 34429966
+  },
+  "va_site_a": {
+    "sha256": "3fe9e42018c031031120d8b5021d17e9414e8c655d05bc9b2bf82458b5206f70",
+    "bytes": 8201914
+  }
+}

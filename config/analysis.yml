@@ -1,0 +1,60 @@
+release:
+  name: bmc-ophthalmology-r1-frozen
+  version: 1.0.0
+  random_seed_manifest: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+cohort:
+  near_target_upper_exclusive_d: -0.50
+  distance_target_lower_inclusive_d: -0.50
+  distance_target_upper_inclusive_d: 0.50
+  postoperative_day_min: 30
+  postoperative_day_max: 180
+  postoperative_reference_day: 70
+  achieved_se_min_d: -8.0
+  achieved_se_max_d: 8.0
+  age_min_years: 18
+  age_max_years: 100
+  preoperative_cylinder_min_d: 0.0
+  preoperative_cylinder_max_d: 7.0
+  axial_length_min_mm: 18.0
+  axial_length_max_mm: 35.0
+  keratometry_lookback_days: 120
+  axial_length_lookback_days: 280
+
+imputation:
+  number: 20
+  max_iter: 10
+  sample_posterior: true
+  initial_strategy: median
+  variables_imputed:
+    - preop_cylinder
+    - axial_length
+    - fellow_target
+
+propensity_score:
+  covariates:
+    - age
+    - surgery_year
+    - target
+    - preop_cylinder
+    - axial_length
+    - fellow_target
+    - female
+    - premium_proc
+    - fellow_toric
+    - surgeon_code
+    - axis_code
+  estimand: overlap_population
+
+outcome_model:
+  family: gaussian
+  link: identity
+  working_correlation: independence
+  cluster: patient_id
+  covariance: bias_reduced
+
+# Manual-audit record fingerprints (four records adjudicated as toric; one record with an
+# implausible axial length) are NOT stored in this public file. Unsalted SHA-256 fingerprints of
+# patient ID, eye, surgery date and IOL model can be reversed by exhaustive search, so they are
+# supplied in the private raw-source configuration under `private_audit:` (see
+# config/raw_files.example.yml). The frozen replay does not use them.

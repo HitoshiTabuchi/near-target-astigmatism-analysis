@@ -1,0 +1,55 @@
+{
+  "mode": "raw_source_verification",
+  "raw_hashes_match": {
+    "iol": true,
+    "refraction": true,
+    "keratometry": true,
+    "axial_site_a": true,
+    "axial_site_b": true,
+    "casia1": true,
+    "casia2": true,
+    "iol_axis_deviation": true,
+    "va_site_b": true,
+    "va_site_a": true
+  },
+  "all_required_raw_hashes_match": true,
+  "counts": {
+    "eligible_eyes": 60302,
+    "near_target_eyes": 9088,
+    "near_target_patients": 6168,
+    "manifest_refraction_observed_eyes": 3301,
+    "manifest_refraction_observed_patients": 2355,
+    "primary_eyes": 3290,
+    "primary_patients": 2348,
+    "primary_toric_eyes": 988,
+    "primary_nontoric_eyes": 2302
+  },
+  "pooled": {
+    "m": 20,
+    "coefficient": -0.28061427835638175,
+    "within_variance": 0.002874706392411935,
+    "between_variance": 0.0005628807994266259,
+    "total_variance": 0.003465731231809892,
+    "standard_error": 0.05887046145402541,
+    "ci_low": -0.3960003828062716,
+    "ci_high": -0.16522817390649194,
+    "p_value": 1.873238654233386e-06
+  },
+  "frozen_reference_coefficient": -0.2744225929999175,
+  "coefficient_difference": -0.006191685356464249,
+  "equivalence_margin_d": 0.03,
+  "within_equivalence_margin": true,
+  "count_checks": {
+    "eligible_eyes": true,
+    "near_target_eyes": true,
+    "near_target_patients": true,
+    "manifest_refraction_observed_eyes": true,
+    "manifest_refraction_observed_patients": true,
+    "primary_eyes": true,
+    "primary_patients": true,
+    "primary_toric_eyes": true,
+    "primary_nontoric_eyes": true
+  },
+  "all_counts_match": true,
+  "passed": true
+}
